@@ -2,13 +2,11 @@
 layout: post
 title: Injecting Property Values into EJBs from Database
 ---
-# Injecting Property Values into EJBs from Database
-
-## References
+# References
 * [Inject Java Properties in Java EE Using CDI
 ](http://piotrnowicki.com/2012/06/inject-java-properties-in-java-ee-using-cdi/)
 
-## Property.java
+# Property.java
 ```java
 @Entity
 @NamedQueries({
