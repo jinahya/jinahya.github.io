@@ -26,3 +26,43 @@ public class Property {
     private String value = "";
 }
 ```
+## find
+```java
+public static Property findNamed(final EntityManager entityManager,
+                                 final String name) {
+    final TypedQuery typedQuery
+        = entityManager.createNamedQuery("Property.find", Property.class);
+    typedQuery.setParameter("name", name);
+    try {
+        return typedQuery.getSingleResult();
+    } catch (final NoResultException nre) {
+        return null;
+    }
+}
+
+public static Property findCriteria(final EntityManager entityManager,
+                                      final String name) {
+    final CriteriaBuilder criteriaBuilder
+        = entityManager.getCriteriaBuilder();
+    final CriteriaQuery criteriaQuery
+        = criteriaBuilder.createQuery(Property.class);
+    final Root<Property> property = criteriaQuery.from(Property.class);
+    criteriaQuery.select(property);
+    criteriaQuery.where(criteriaBuilder.equal(property.get(Property_.name), name));
+    final TypedQuery typedQuery
+        = entityManager.createQuery(criteriaQuery);
+    try {
+        return typedQuery.getSingleResult();
+    } catch (final NoResultException nre) {
+        return null;
+    }
+}
+
+public static Property find(final EntityManager entityManager,
+                            final String name) {
+    if (current().nextBoolean()) {
+        return findNamed(entityManager, name);
+    }
+    return findCriteria(entityManager, name);
+}
+```
