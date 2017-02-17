@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hello, world
+title: Injecting Property Values into EJBs from Database
 ---
 # Injecting Property Values into EJBs from Database
 
