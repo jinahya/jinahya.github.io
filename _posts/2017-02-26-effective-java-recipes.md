@@ -26,3 +26,13 @@ title: Effective Java Recipes
 #### Item 7: Avoid finializers
 
 ### Chapter 3 Methods Common to All Objects
+
+#### Item 8: Obey the general contract when overriding `equals`
+
+#### Item 9: Always override `hashCode` when you override `equals`
+
+#### Item 10: Always override `toString`
+
+#### Item 11: Override `clone` judiciously
+
+#### Item 12: Consider implementing `Comparable`
