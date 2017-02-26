@@ -2,7 +2,6 @@
 layout: post
 title: Effective Java Recipes
 ---
-# Effective Java Recipes
 
 ## Effective Java: Programming Language Guide
 
