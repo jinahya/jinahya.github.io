@@ -5,7 +5,7 @@ title: Effective Java Recipes
 
 ## Effective Java: Programming Language Guide
 
-## Effective Java: 2nd Edition
+## Effective Java: Second Edition
 
 ### Chapter 1 Introduction
 
