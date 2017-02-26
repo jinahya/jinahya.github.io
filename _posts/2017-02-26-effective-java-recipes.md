@@ -3,9 +3,11 @@ layout: post
 title: Effective Java Recipes
 ---
 
-## Effective Java: Programming Language Guide [amazon.com](https://www.amazon.com/Effective-Java-Programming-Language-Guide/dp/0201310058)
+## Effective Java: Programming Language Guide
+* [amazon.com](https://www.amazon.com/Effective-Java-Programming-Language-Guide/dp/0201310058)
 
-## Effective Java: Second Edition [amazon.com](https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683)
+## Effective Java: Second Edition
+* [amazon.com](https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683)
 
 ### Chapter 1 Introduction
 
