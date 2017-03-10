@@ -98,10 +98,6 @@ title: Effective Java Recipes
 
 ### References
 
-----------|-----------------------------------------------------------------------------------------
-[Langer08]|Langer, Angelika. Java Generics FAQs — Frequently Asked Questions. 2008. <http://www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html>
-aaaaaaaaaaaaaaaa|aaaa
-
 ---
 
 ### Index
