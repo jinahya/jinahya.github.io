@@ -6,10 +6,17 @@ title: Effective Java Recipes
 ## Effective Java: Programming Language Guide
 * [amazon.com](https://www.amazon.com/Effective-Java-Programming-Language-Guide/dp/0201310058)
 
+---
+---
+
 ## Effective Java: Second Edition
 * [amazon.com](https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683)
 
+---
+
 ### Chapter 1 Introduction
+
+---
 
 ### Chapter 2 Creating and Destroying Objects
 
@@ -27,6 +34,8 @@ title: Effective Java Recipes
 
 #### Item 7: Avoid finializers
 
+---
+
 ### Chapter 3 Methods Common to All Objects
 
 #### Item 8: Obey the general contract when overriding `equals`
@@ -39,7 +48,11 @@ title: Effective Java Recipes
 
 #### Item 12: Consider implementing `Comparable`
 
+---
+
 ### Chapter 4 Classes and Interfaces
+
+----
 
 ### Chapter 5 Generics
 
@@ -56,3 +69,23 @@ title: Effective Java Recipes
 #### Item 28: Use bounded wildcards to increase API flexibility
 
 #### Item 29: Consider typesafe heterogeneous containers
+
+---
+
+### Chapter 6 Enums and Annotations
+
+#### Item 30: Use enums instead of `int` constant
+
+#### Item 31: Use instance fields instead of ordinals
+
+#### Item 32: Use `EnumSet` instead of bit fields
+
+#### Item 33: Use `EnumMap` instead of ordinal indexing
+
+#### Item 34: Emulate extensible enums with interfaces
+
+#### Item 35: Prefer annotations to naming patterns
+
+#### Item 36: Consistently use the `Override` annotation
+
+#### Item 37: Use marker interface to define types
