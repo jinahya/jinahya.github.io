@@ -58,6 +58,10 @@ title: Effective Java Recipes
 
 #### Item 23: Don't use raw types in new code
 
+##### References
+* [Langer, Angelika. Java Generics FAQs — Frequently Asked Questions. 2008.](http://www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html)
+* [Naftalin, Maurice, and Philip Wadler. Java Generics and Collections. O’Reilly Media, Inc., Sebastopol, CA, 2007. ISBN: 0596527756.](http://shop.oreilly.com/product/9780596527754.do)
+
 #### Item 24: Eliminate unchecked warnings
 
 #### Item 25: Prefer lists to arrays
