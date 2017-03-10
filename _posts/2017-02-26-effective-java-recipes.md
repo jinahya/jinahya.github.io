@@ -89,3 +89,19 @@ title: Effective Java Recipes
 #### Item 36: Consistently use the `Override` annotation
 
 #### Item 37: Use marker interface to define types
+
+---
+
+### Appendix: Items Corresponding to First Edition
+
+---
+
+### References
+
+----------|-----------------------------------------------------------------------------------------
+[Langer08]|Langer, Angelika. Java Generics FAQs — Frequently Asked Questions. 2008. <http://www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html>
+aaaaaaaaaaaaaaaa|aaaa
+
+---
+
+### Index
