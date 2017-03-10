@@ -38,3 +38,21 @@ title: Effective Java Recipes
 #### Item 11: Override `clone` judiciously
 
 #### Item 12: Consider implementing `Comparable`
+
+### Chapter 4 Classes and Interfaces
+
+### Chapter 5 Generics
+
+#### Item 23: Don't use raw types in new code
+
+#### Item 24: Eliminate unchecked warnings
+
+#### Item 25: Prefer lists to arrays
+
+#### Item 26: Favor generic types
+
+#### Item 27: Favor generic methods
+
+#### Item 28: Use bounded wildcards to increase API flexibility
+
+#### Item 29: Consider typesafe heterogeneous containers
