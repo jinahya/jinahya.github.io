@@ -70,7 +70,7 @@ title: Effective Java Recipes
 
 ##### reifiable vs. non-reifiable
 
-##### References
+##### references
 * [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) (Wikipedia)
 * [Covariance and contravariance (computer science)](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)) (Wikipedia)
 * [Covariance, Invariance and Contravariance explained in plain English?](http://stackoverflow.com/q/8481301/330457) (Stackoverflow)
