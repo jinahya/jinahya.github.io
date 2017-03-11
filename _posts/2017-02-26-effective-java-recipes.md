@@ -65,10 +65,20 @@ title: Effective Java Recipes
 #### Item 24: Eliminate unchecked warnings
 
 #### Item 25: Prefer lists to arrays
-##### Covariance, Contravariance, and Invariance
+
+> arrays are covariant and reified.
+
+```java
+String[] strings = new String[1];
+Object[] objects = strings;       // covariant
+objects[0] = Long.valueOf(1L);    // reified -> ArrayStoreException
+```
+
+##### References
 * [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) (Wikipedia)
 * [Covariance and contravariance (computer science)](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)) (Wikipedia)
 * [Covariance, Invariance and Contravariance explained in plain English?](http://stackoverflow.com/q/8481301/330457) (Stackoverflow)
+* [Erasure vs reification](http://beust.com/weblog/2011/07/29/erasure-vs-reification/) (Otaku, Cedric's blog)
 
 #### Item 26: Favor generic types
 
