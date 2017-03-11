@@ -66,9 +66,9 @@ title: Effective Java Recipes
 
 #### Item 25: Prefer lists to arrays
 
-#### covariant vs. invariant
+##### covariant vs. invariant
 
-#### reifiable vs. non-reifiable
+##### reifiable vs. non-reifiable
 
 ##### References
 * [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) (Wikipedia)
