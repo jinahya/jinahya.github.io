@@ -66,13 +66,9 @@ title: Effective Java Recipes
 
 #### Item 25: Prefer lists to arrays
 
-> arrays are covariant and reified.
+#### covariant vs. invariant
 
-```java
-String[] strings = new String[1];
-Object[] objects = strings;       // covariant
-objects[0] = Long.valueOf(1L);    // reified -> ArrayStoreException
-```
+#### reifiable vs. non-reifiable
 
 ##### References
 * [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) (Wikipedia)
