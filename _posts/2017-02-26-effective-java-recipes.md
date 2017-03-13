@@ -3,6 +3,9 @@ layout: post
 title: Effective Java Recipes
 ---
 
+* TOC
+{:toc}
+
 ## Effective Java: Programming Language Guide
 * [amazon.com](https://www.amazon.com/Effective-Java-Programming-Language-Guide/dp/0201310058)
 
