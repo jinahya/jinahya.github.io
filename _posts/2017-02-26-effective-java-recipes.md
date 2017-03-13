@@ -6,6 +6,29 @@ title: Effective Java Recipes
 ## Effective Java: Programming Language Guide
 * [amazon.com](https://www.amazon.com/Effective-Java-Programming-Language-Guide/dp/0201310058)
 
+### Foreward
+
+### Preface
+
+### Acknowledgements
+
+### Chapter 1 Introduction
+
+### Chapter 2 Creating and Destroying Objects
+
+#### Item 1: Consider providing static factory methods instead of constructors
+
+#### Item 2: Enforce the singleton property with a private constructor
+
+#### Item 3: Enforce noninstantiability with a private constructor
+
+#### Item 4: Avoid creating duplicate objects
+
+#### Item 5: Eliminate obsolete object references
+
+#### Item 6: Avoid finalizers
+
+
 ---
 ---
 
