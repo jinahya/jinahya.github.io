@@ -28,6 +28,36 @@ title: Effective Java Recipes
 
 #### Item 6: Avoid finalizers
 
+### Chapter 3 Methods Common to All Objects
+
+### Chapter 4 Classes and Interfaces
+
+### Chapter 5 Substitutes for C Constructs
+
+### Chapter 6 Methods
+
+### Chapter 7 General Programming
+
+### Chapter 8 Exceptions
+
+### Chapter 9 Threads
+
+### Chapter 10 Serialization
+
+#### Item 54: Implement `Serializable` judiciouly
+
+#### Item 55: Consider using a custom serializaed form
+
+#### Item 56: Write `readObject` methods defensively
+
+#### Item 57: Provide a `readResolve` method when necessary
+
+### References
+
+### Index of Patterns and Idioms
+
+### Index
+
 
 ---
 ---
