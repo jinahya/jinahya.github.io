@@ -6,15 +6,22 @@ title: Effective Java Recipes
 * TOC
 {:toc}
 
+---
+---
+
 ## Effective Java: Programming Language Guide
 * [amazon.com](https://www.amazon.com/Effective-Java-Programming-Language-Guide/dp/0201310058)
 
+---
 ### Foreward
 
+---
 ### Preface
 
+---
 ### Acknowledgements
 
+---
 ### Chapter 1 Introduction
 
 ### Chapter 2 Creating and Destroying Objects
