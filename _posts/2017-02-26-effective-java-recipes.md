@@ -10,7 +10,6 @@ title: Effective Java Recipes
 ---
 
 ## Effective Java: Programming Language Guide
-* [amazon.com](https://www.amazon.com/Effective-Java-Programming-Language-Guide/dp/0201310058)
 
 ---
 ### Foreward
@@ -73,14 +72,11 @@ title: Effective Java Recipes
 ---
 
 ## Effective Java: Second Edition
-* [amazon.com](https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683)
 
 ---
-
 ### Chapter 1 Introduction
 
 ---
-
 ### Chapter 2 Creating and Destroying Objects
 
 #### Item 1: Consider static factory methods instead of constructors
@@ -98,7 +94,6 @@ title: Effective Java Recipes
 #### Item 7: Avoid finializers
 
 ---
-
 ### Chapter 3 Methods Common to All Objects
 
 #### Item 8: Obey the general contract when overriding `equals`
