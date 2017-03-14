@@ -172,6 +172,20 @@ title: Effective Java Recipes, Second Edition
 
 ---
 
+## Chapter 11 Serialization
+
+### Item 74: Implement `Serializable` judiciously
+
+### Item 75: Consider using a custom serializable form
+
+### Item 76: Write `readObject` methods defensively
+
+### Item 77: For instance control, prefer enum types to `readResolve`
+
+### Item 78: Consider serializtion proxies instead of serialized instances
+
+---
+
 ## Appendix: Items Corresponding to First Edition
 
 ---
