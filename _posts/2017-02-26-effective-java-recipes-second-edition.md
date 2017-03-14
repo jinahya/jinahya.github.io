@@ -150,7 +150,21 @@ title: Effective Java Recipes, Second Edition
 
 ### Item 57: Use exceptions only for exceptional conditions
 
-### Item 58: Use 
+### Item 58: Use checked exceptions for recoverable conditions and runtime exception for programming errors
+
+### Item 59: Avoid unnecessary use of checked exceptions
+
+### Item 60: Favor the use of standard exceptions
+
+### Item 61: Throw exceptions appropriate to the abstraction
+
+### Item 62: Document all exceptions thrown by each method
+
+### Item 63: Include failure-capture information in detail messages
+
+### Item 64: Strive for failure aomicity
+
+### Item 65: Don't ignore exceptions
 
 ---
 
