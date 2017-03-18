@@ -170,6 +170,25 @@ title: Effective Java Recipes, Second Edition
 
 ## Chapter 10 Concurrency
 
+### Item 66: Synchronize access to shared mutable data
+
+#### Read More
+* [why hotspot will optimize the following using hoisting?](http://stackoverflow.com/q/9338180/330457) (StackOverflow)
+
+### Item 67: Avoid excessive synchronization
+
+### Item 68: Prefer executors and tasks to thread
+
+### Item 69: Prefere concurrency utilities to wait and notify
+
+### Item 70: Document thread safety
+
+### Item 71: Use lazy intialization judiciously
+
+### Item 72: Don't depend on the thread scheduler
+
+### Item 73: Avoid thread groups
+
 ---
 
 ## Chapter 11 Serialization
