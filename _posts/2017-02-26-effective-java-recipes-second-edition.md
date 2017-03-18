@@ -211,6 +211,11 @@ title: Effective Java Recipes, Second Edition
 
 ## References
 
+|             |                                                                                                                     |
+| ----------- | ------------------------------------------------------------------------------------------------------------------- |
+|**[Goetz06]**|Goetz, Brian, with Tim Peierls et al. *Java Concurrency in Practice*. Addison-Wesley, Boston, 2006. ISBN: 0321349601.|
+|**[Gong03]** |Gong, Li, Gary Ellison, and Mary Dageforde. Inside *Java<sup>TM</sup> 2 Platform Security, Second Edition*. Addison-Wesley, Boston, 2003. ISBN: 0201787911.|
+
 ---
 
 ## Index
