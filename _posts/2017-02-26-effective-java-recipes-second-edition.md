@@ -185,6 +185,42 @@ title: Effective Java Recipes, Second Edition
 
 ### Item 71: Use lazy intialization judiciously
 
+#### initialize-on-demand holder idiom
+```java
+public class Singleton1 {
+
+    private static class InstanceHolder {
+        static final Singletone1 INSTANCE = new Singleton1();
+    }
+
+    public static Singleton1 getInstance() {
+        return InstanceHolder.INSTANCE;
+    }
+
+    private Singleton1() { super(); } // PRIVATE
+}
+```
+#### double-checked locking
+```java
+public class Singleton2 {
+
+    private static volatile Singleton2 INSTANCE; // VOLATILE
+    
+    public static Singleton2 getInstance() {
+        if (INSTANCE == null) {                  // CHECK1
+            synchronized (Singleton2.class) {
+                if (INSTANCE == null) {          // CHECK2
+                    INSTANCE = new Singleton2();
+                }
+            }
+        }
+        return INSTANCE;
+    }
+    
+    private Singleton1() { super(); }            // PRIVATE
+}
+```
+
 #### Read more
 * [Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern) (Wikipedia)
   * [Multiton pattern](https://en.wikipedia.org/wiki/Multiton_pattern) (Wikipeida)
