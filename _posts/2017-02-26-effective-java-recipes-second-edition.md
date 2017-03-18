@@ -185,6 +185,12 @@ title: Effective Java Recipes, Second Edition
 
 ### Item 71: Use lazy intialization judiciously
 
+#### Read more
+* [Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern) (Wikipedia)
+  * [Multiton pattern](https://en.wikipedia.org/wiki/Multiton_pattern) (Wikipeida)
+* [Double-checked locking](https://en.wikipedia.org/wiki/Double-checked_locking) (Wikipedia)
+* [Initialization-on-demand holder idiom](https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom) (Wikipedia)
+
 ### Item 72: Don't depend on the thread scheduler
 
 ### Item 73: Avoid thread groups
