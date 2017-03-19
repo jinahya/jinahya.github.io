@@ -130,6 +130,9 @@ title: Effective Java Recipes, Second Edition
 
 ### Item 49: Prefer primitive types to boxed primitives
 
+#### Read more
+* [Autoboxing and Unboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html) (The Java™ Tutorials)
+
 ### Item 50: Avoid strings where other types are more appropriate
 
 ### Item 51: Beware the performance of string concatenation
