@@ -11,3 +11,6 @@ public class HelloWorld {
     }
 }
 ```
+```java
+String.class
+```
