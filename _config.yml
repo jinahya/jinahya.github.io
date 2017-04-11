@@ -35,3 +35,5 @@ exclude:
   - Gemfile.lock
 
 future: true
+
+theme: jekyll-theme-time-machine
