@@ -27,7 +27,7 @@ github_username:  jinahya
 # Build settings
 markdown: kramdown
 #theme: minima
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 gems:
   - jekyll-feed
 exclude:
