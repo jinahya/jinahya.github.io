@@ -46,28 +46,24 @@ try {
     //logger.debug("class not found", cnfe);
     return;
 }
+final Method executeMethod;
+try {
+    executeMethod
+        = workClass.getMethod("work", Connection.class);
+} catch (final NoSuchMethodException nsme) {
+    return;
+}
 final Object workProxy = Proxy.newProxyInstance(
         workClass.getClassLoader(),
         new Class[]{workClass},
         (proxy, method, args) -> {
-            if (!method.getName().equals("execute")) {
-                return method.invoke(session, args);
-            }
-            final Connection connection = (Connection) args[0];
-            logger.debug("connection: {}", connection);
-            try {
-                try (Statement s = connection.createStatement()) {
-                    try (ResultSet r = s.executeQuery(
-                            "SELECT * FROM " + _Dummy.TABLE_NAME
-                            + " WHERE 1 = 1")) {
-                        logger.debug("result set retrieved");
-                    }
-                }
-            } catch (final SQLException sqle) {
-                sqle.printStackTrace(System.err);
+            if (method.equals(executeMethod)) {
+                final Connection connection = (Connection) args[0];
+                result.add(function.apply(connection));
             }
             return null;
-        });
+        }
+);
 sessionClass.getMethod("doWork", workClass).invoke(session, workProxy);
 //manager.getTransaction().commit();
 manager.close();
