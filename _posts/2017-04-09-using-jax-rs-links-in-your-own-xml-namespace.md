@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Using JAX-RS Links in your own XML Namespace
+categories: programming
+tags: jax-rs hateoas
 ---
 # Using JAX-RS Links in your own XML Namespaces
 
