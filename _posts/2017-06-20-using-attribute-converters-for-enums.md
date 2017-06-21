@@ -12,6 +12,7 @@ public interface EnumAttributeConverter<E extends Enum<E>, Y>
 ```
 
 ```java
+@Converter
 public class DayOfWeekIntegerConverter
         implements EnumAttributeConverter<DayOfWeek, Integer> {
 
